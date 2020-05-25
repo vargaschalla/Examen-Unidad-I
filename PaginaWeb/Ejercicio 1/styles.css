@@ -1,0 +1,58 @@
+*{
+	font-size: 30px;
+	font-family: cooper black;
+	color: black;
+	background: linear-gradient(to right, white -100px,#440061,#440061 900px, #BD5BEF,white 1600px);
+}
+table{
+	height: 300px;
+	width: 550px;
+	border-radius: 20px;
+	border:solid 3px black;
+	box-shadow: 14px 4px 4px black;
+	text-shadow: 4px 0px 3px white;
+
+
+}
+button{
+	border-radius: 20px;
+	height: 50px;
+	margin: 1px;
+	text-shadow: 4px 0px 0px white;
+}
+
+table p{
+	background: transparent;
+}
+
+
+table td p {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+div #imagen{
+	float: left;
+	background: transparent;
+	position: relative;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: -200px;
+    width: 100%;
+
+  }
+
+  to {
+    margin-left: 15%;
+    width: 100%;
+  }
+}
+@media (max-width: 450px) {
+	table {
+		display: block;
+		flex: 80%;
+	}
+}

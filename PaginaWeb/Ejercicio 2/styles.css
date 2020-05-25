@@ -1,0 +1,33 @@
+body{
+    width: 960px;
+    margin: 0 auto;
+    background: linear-gradient(to top,#FFFFFF -100px,#49F60C 100px,white)
+}
+h1{
+    text-align: center;
+    color: green;
+    font-family: verdana;
+}
+#pantalla{
+    border: groove 10px brown;
+    background: linear-gradient(to bottom, #080327, #170980, #1D0578,#4395FB,white);
+}
+#boton{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+    padding: 3px;
+    border: solid 2px black;
+}
+#boton:hover{
+    background-color: lightcoral;
+    font-size: 22px;
+}
+
+@media (max-width: 480px) {
+    #pantalla {
+        flex: 80%;
+    }
+}
